@@ -6,6 +6,8 @@ html {
 body {
     width: 80%;
     align-content: center;
+    line-height: 3ex;
+    margin-left: 80px;
 }
 
 h1 {
