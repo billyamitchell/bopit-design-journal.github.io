@@ -58,7 +58,8 @@ a:hover {
 
 .thumbnail {
     width: auto;
-    height: 200px;
+    height: 300px;
+    padding: 10px;
 }
 
 .block {
