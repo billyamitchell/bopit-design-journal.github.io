@@ -1,0 +1,64 @@
+html {
+    font-family: sans-serif;
+    margin: 10px;
+}
+
+body {
+    width: 80%;
+    align-content: center;
+}
+
+h1 {
+    font-weight: 500;
+    font-size: 20px;
+    
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+
+h2 {
+    font-weight: 800;
+}
+
+p {
+    font-family: sans-serif;
+}
+
+ul {
+    font-family: sans-serif;
+    margin: 0;
+	border: 0;
+	font-size: 100%;
+	vertical-align: baseline;
+}
+
+a {
+    text-decoration: none;
+    color: black;
+    list-style: none;
+}
+
+a:hover {
+    color: red;
+}
+
+
+.topnav {
+    display: flex;
+}
+
+.img-dump {
+    display: flex;
+    width: 100%;
+    flex-wrap: wrap;
+    margin: 50px;
+}
+
+.thumbnail {
+    width: auto;
+    height: 200px;
+}
+
+.block {
+    height: 50px;
+}
