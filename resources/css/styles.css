@@ -136,11 +136,6 @@ a:hover {
 }
 
 
-
-
-
-
-
 .lightbox {
 	/** Default lightbox to hidden */
 	display: none;
@@ -154,13 +149,18 @@ a:hover {
 	top: 0;
 	left: 0;
 	background: rgba(0,0,0,0.8);
+    
+    overflow: scroll;
 }
 
 .lightbox img {
 	/** Pad the lightbox image */
-	max-width: 90%;
-	max-height: 80%;
+	max-width: 70%;
+	max-height: auto;
 	margin-top: 2%;
+    margin-bottom: 2%;
+    
+    overflow: scroll;
 }
 
 .lightbox:target {
