@@ -1,6 +1,6 @@
 html {
-    font-family: sans-serif;
     margin: 0px;
+    font-family: 'Encode Sans', sans-serif;
 }
 
 body {
@@ -61,8 +61,8 @@ a:hover {
 }
 
 .content {
-    width: 80%;
-    margin-left: 50px;
+    width: 65%;
+    margin: auto;
 }
 
 .topnav {
@@ -135,7 +135,6 @@ a:hover {
     color: grey;
 }
 
-
 .lightbox {
 	/** Default lightbox to hidden */
 	display: none;
@@ -169,4 +168,10 @@ a:hover {
 
 	/** Unhide lightbox **/
 	display: block;
+}
+
+.essay {
+    display: block;
+    width: 50;
+    padding: 10%, 20%, 10%, 20%;
 }
